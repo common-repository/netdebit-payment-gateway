@@ -1,0 +1,188 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2019-01-18 12:06+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: \n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Eazy Po 0.9.5.3\n"
+
+#: src/Payment/Gateway.php:44
+msgid "NetDebit online payment: Credit Card, SEPA Direct Debit, Klarna SOFORT, Wire Transfer"
+msgstr ""
+
+#: src/Payment/Gateway.php:103
+msgid "NetDebit online payment:  customer is king! "
+msgstr ""
+
+#: src/Payment/Gateway.php:104
+msgid ""
+"About 730,000 customers value our payment system, our variety of offers and "
+"the supporting service.You can become a king as well and use NetDebit as "
+"your prefered payment service provider."
+msgstr ""
+
+#: src/Payment/Gateway.php:116
+msgid "Enable/Disable"
+msgstr ""
+
+#: src/Payment/Gateway.php:118
+msgid "Enable Netdebit payment module."
+msgstr ""
+
+#: src/Payment/Gateway.php:123
+msgid "Partner ID:"
+msgstr ""
+
+#: src/Payment/Gateway.php:125
+msgid "Your NetDebit's unique partner ID."
+msgstr ""
+
+#: src/Payment/Gateway.php:128
+msgid "Content ID:"
+msgstr ""
+
+#: src/Payment/Gateway.php:130
+msgid "Your NetDebit's unique content ID."
+msgstr ""
+
+#: src/Payment/Gateway.php:133
+msgid "Webmaster ID:"
+msgstr ""
+
+#: src/Payment/Gateway.php:135
+msgid "Your NetDebit's unique webmaster ID."
+msgstr ""
+
+#: src/Payment/Gateway.php:138
+msgid "Gateway Password:"
+msgstr ""
+
+#: src/Payment/Gateway.php:141
+msgid "Your personal access password to the NetDebit payment gateway."
+msgstr ""
+
+#: src/Payment/Gateway.php:144
+msgid "Payment Form Style:"
+msgstr ""
+
+#: src/Payment/Gateway.php:145
+msgid ""
+"Choose whether you want the NetDebit payment form styled as a single page or "
+"wizard like."
+msgstr ""
+
+#: src/Payment/Gateway.php:154
+msgid "Billing Address Information"
+msgstr ""
+
+#: src/Payment/Gateway.php:156
+msgid "Hide billing address input fields."
+msgstr ""
+
+#: src/Payment/Gateway.php:171
+msgid "Partner ID (PID) required. Only digits allowed"
+msgstr ""
+
+#: src/Payment/Gateway.php:177
+msgid "Content ID (CON) required. Only digits allowed"
+msgstr ""
+
+#: src/Payment/Gateway.php:183
+msgid "Content ID (CON) must be in range between 0 and 999999999"
+msgstr ""
+
+#: src/Payment/Gateway.php:192
+msgid "Webmaster ID (SID) must be in range between 773000000 and 773099999"
+msgstr ""
+
+#: src/Payment/Gateway.php:198
+msgid "Gateway Password required."
+msgstr ""
+
+#: src/Payment/Gateway.php:218
+msgid "Awaiting booking notification by NetDebit"
+msgstr ""
+
+#: src/WebHook/WC_NetDebit_Booking.php:98
+msgid "NetDebit's Gateway password not set"
+msgstr ""
+
+#: src/WebHook/WC_NetDebit_Booking.php:102
+msgid "NetDebit's Gateway password does not match"
+msgstr ""
+
+#: src/WebHook/WC_NetDebit_Booking.php:106
+msgid "NetDebit's Gateway response does not contain the bookingnumber"
+msgstr ""
+
+#: src/WebHook/WC_NetDebit_Booking.php:110
+msgid "NetDebit's Gateway response does not contain the booking status"
+msgstr ""
+
+#: src/WebHook/WC_NetDebit_Booking.php:115
+msgid "NetDebit's Gateway response does not contain the AboState"
+msgstr ""
+
+#: src/WebHook/WC_NetDebit_Booking.php:118
+msgid "NetDebit's Gateway response does not contain the VAR1"
+msgstr ""
+
+#: src/WebHook/WC_NetDebit_Booking.php:172
+msgid "Customer caused a chargeback. Collection procedure running."
+msgstr ""
+
+#: src/Product/SubscriptionProduct.php:52
+msgid "NetDebit Subscription"
+msgstr ""
+
+#: src/Product/SubscriptionProduct.php:74
+msgid "Subscriptions Intervall"
+msgstr ""
+
+#: src/Product/SubscriptionProduct.php:79
+msgid "Select a value"
+msgstr ""
+
+#: src/Product/SubscriptionProduct.php:80
+msgid "days"
+msgstr ""
+
+#: src/Product/SubscriptionProduct.php:81
+msgid "weeks"
+msgstr ""
+
+#: src/Product/SubscriptionProduct.php:82
+msgid "months"
+msgstr ""
+
+#: src/Product/SubscriptionProduct.php:83
+msgid "years"
+msgstr ""
+
+#: src/Cart/OneSubscriptionOnly.php:66
+msgid "View cart"
+msgstr ""
+
+#: src/Cart/OneSubscriptionOnly.php:67
+#, php-format
+msgid "You can not buy %s together with other products"
+msgstr ""
+
+#: src/Cart/VirtualItemsOnlyGuard.php:46
+#, php-format
+msgid ""
+"Only virtiual (digital) goods can be billed by NetDebit. Please remove %s "
+"from the cart to pay with NetDebit "
+msgstr ""
